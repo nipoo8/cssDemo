@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 310px;
+    height: 438px;
+    background-color: skyblue;
+    border: 1px solid gray;
+    margin: 100px auto;
+    perspective: 500px;
+}
+
+div img {
+    transform-origin: center bottom;
+    transition: transform 2s;
+}
+
+div:hover img {
+    transform: rotateX(80deg);
+}
+
+div img {
+    width: 310px;
+    height: 438px;
+}
